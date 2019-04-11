@@ -128,10 +128,10 @@ table {
 }
 * {
   box-sizing: border-box;
-  font-family: 'Helvetica', sans-serif;
 }
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 
 /* Page styling */
@@ -139,22 +139,33 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 2rem auto;
+  margin: 0 auto 0;
   max-width: 1024px;
+  height: 100%;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+header {
+  margin: 2rem;
 }
 
 h1 {
   font-size: 4rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .msg-list {
-  max-width: 600px;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
-  margin: 2rem auto;
+  margin: 2rem auto 0;
+  flex: 1 0 auto;
 }
 
+.msg-text {
+  line-height: 2.5rem;
+}
 .msg {
   margin: 2rem 0;
   font-size: 1.5rem;
@@ -164,4 +175,11 @@ h1 {
 .msg-name {
   font-weight: 600;
   margin: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto 1rem;
+  flex-shrink: 0;
+  font-size: 1.3rem;
 }
