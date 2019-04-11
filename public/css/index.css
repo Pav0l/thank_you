@@ -139,7 +139,8 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 0 auto 0;
+  margin: 0 auto;
+  padding: 0 3rem;
   max-width: 1024px;
   height: 100%;
   font-family: 'Montserrat', Arial, sans-serif;
