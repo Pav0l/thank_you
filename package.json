@@ -1,0 +1,22 @@
+{
+  "name": "thank_you_gabe",
+  "version": "1.0.0",
+  "description": "Thank you landing page for Gabe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pav0l/thank_you.git"
+  },
+  "author": "Pavol, Ivana, WEBEU1 students",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pav0l/thank_you/issues"
+  },
+  "homepage": "https://github.com/Pav0l/thank_you#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
